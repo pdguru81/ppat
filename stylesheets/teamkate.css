@@ -1,0 +1,18 @@
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+.div{
+	display: block;
+}
+
+#greeting{
+	border-bottom: 1px solid;
+	background-color: black;
+	width: 100%;
+}
+
+.colortext{
+	color: white;
+
+}
