@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="javascripts/libs/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="javascripts/libs/bootstrap.min.js"></script>
+<script type="text/javascript" src="javascripts/teamkate.js"></script>
+<link rel="stylesheet" type="text/css" href="stylesheets/bootstrap-3.2.0-dist/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="stylesheets/teamkate.css">
+<title>teamkate!</title>
+</head>
+<body>
+<div id="greeting">
+	<div class="col-md-4" id="welcome">
+				<img id="logo" src="images/logo.png">
+	</div>
+	<div class="container">
+		<div class="row">
+		<div class="col-md-8" id="welcome">
+		<div class="row black">space</div>
+		<div class="row black">space</div>
+		<div class="row" id="content-tab">			
+			<ul class="nav nav-tabs" id="tabs" role="tablist">
+			  <li id="for-article" class="active"><a href="#project-detail" class="colortext"role="tab" data-toggle="tab"> Project Details</a></li>
+			  <li id="for-haat-summary"><a  class="colortext" href="#haat-summary" role="tab" data-toggle="tab"> HAAT Summary</a></li>
+			  <li id="for-posts"><a class="colortext" href="#create-demo" role="tab" data-toggle="tab">Creating prototypes</a></li>
+			  <li id="for-posts"><a class="colortext" href="#team" role="tab" data-toggle="tab">The team</a></li>
+			  <li id="for-videos"><a  class="colortext" href="#videos" role="tab" data-toggle="tab">Videos</a></li>
+			 
+
+			</ul>
+		</div>
+		</div>
+	</div>
+	</div>
+</div>
+</div>
+	<div id='main-content' class="container">
+			<div class="row">
+				<div class="col-md-2 colortext mit-color" id="chat">
+				</div>
+				<div class="tab-content col-md-8" id="publications">
+						<div class="tab-pane active" id="project-detail">
+							<div class="row">
+							     <div class="col-md-3"></div>
+							     <div class="col-md-6"id='project-details'> </div>
+							     <div class="col-md-3"></div>
+							</div>
+						<div class="row">
+						    <div class='panel panel-default'>
+						         <div class='panel-heading'>
+						            <div class='panel-title'> 
+						             <a data-toggle="collapse" data-target="#collapseOne" 
+          								 href="#collapseOne">Images of Prototypes
+       								 </a>
+       								 </div>
+						         </div>
+						         <div id="collapseOne" class="panel-collapse collapse in">
+							         <div  class='panel-body'>
+							         	<table>
+							         	<tr>
+							         		<td><img class='prototypes' src="images/p1.jpg"></td>
+							         		<td><img class='prototypes' src="images/p2.jpg"></td>
+							         		<td><img class='prototypes' src="images/p3.jpg"></td>
+							         	</tr>
+							         	<tr>
+							         	<td><img class='prototypes' src="images/p4.jpg"></td>
+							         	<td><img class='prototypes' src="images/p5.jpg"></td>
+							         	</tr>
+							         	</table>
+							         </div>
+						     </div>
+						    </div>
+						</div>
+					<div class="row">
+					    <div class='panel panel-default'>
+					         <div class='panel-heading'>
+					            <div class='panel-title'>
+					            	  <a data-toggle="collapse" data-target="#collapseTwo" 
+          								 href="#collapseTwo">Water Resistance Test
+       								 </a>
+					            </div>
+					         </div>
+					         <div id="collapseTwo" class="panel-collapse collapse in">
+					       	  <div class='panel-body'></div>
+					       	  </div>
+					    </div>
+					</div>
+					    
+					<div class="row">
+				    <div class='panel panel-default'>
+				         <div class='panel-heading'>
+				            <div class='panel-title'> Sound directionality Test</div>
+				         </div>
+				         <div class='panel-body'></div>
+				 </div>
+				</div>    
+				<div class="row">
+				    <div class='panel panel-default'>
+				         <div class='panel-heading'>
+				            <div class='panel-title'>Other Tests and success metrics</div>
+
+				         </div>
+				         <div class='panel-body'></div>
+				    </div>
+				</div>
+    
+						</div>
+						<div class="tab-pane" id="team">
+							<div class="row">
+							     <div class="col-md-3"></div>
+							     <div class="col-md-6"id='team-comment'></div>
+							     <div class="col-md-3"></div>
+							</div>
+							<div class="row"> 
+								<table data-toggle="table" id='team-mates'>
+								    <thead>
+								        <tr>
+								            <th data-field="id">Name</th>
+								            <th data-field="name">Experience in PPAT</th>
+								        </tr>
+								    </thead>
+								    <tbody>
+								    	 <tr>
+								    	 	<tr>
+								            	<td>Dhruv Jain</td>
+								            </tr>
+								            <tr>
+								            	<td><img class='people' src="images/dhruv.jpg"></td>
+								            </tr>
+								            <td data-field="name">bla bla bla</td>
+								        </tr>
+								    </tbody>
+								    <tbody> <tr>
+								    		<tr>
+								    			<tr>
+								    				<td>Raquel Galvan-Garza</td>
+								    			</tr>
+								    			<td><img class='people' src="images/raquel.jpg"></td>
+								    		</tr>
+								            
+								            <td data-field="name">bla bla bla</td>
+								        </tr>
+								    </tbody>
+								    <tbody>
+								     <tr>
+								            <tr>
+								            	<tr><td>Jenny Shen</td></tr>
+								            	<td><img class='people' src="images/jenny.jpg"></td>
+								            </tr>
+								            <td data-field="name">bla bla bla</td>
+								            
+								       </tr>
+								   </tbody>
+								   <tbody>
+								    <tr>	
+								    		<tr>
+								            	<tr><td>Philip Abel</td></tr>
+								            	<td><img class='people' src="images/philip.jpg"></td>
+								            </tr>
+								            <td data-field="name">bla bla bla</td>
+								     </tr>
+								    </tbody>
+								</table>
+							</div>
+						</div>
+						<div class="tab-pane" id='haat-summary'>HAAT Summary</div>
+						<div class='tab-pane' id='videos'>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<div class="panel-title"> Mid Semester report video</div>
+									<div class="panel-body">			
+									<video width="400" controls>
+									  <source src="https://www.youtube.com/watch?v=UXTIAwPtewo&list=UUoiMOVV7Di6v5mwBvKmVRpA" 
+									  type="video/mp4">
+									</video>
+									</div>
+								</div>
+							</div>
+						</div>
+					<div class="tab-pane " id="create-demo">
+						<div class="row">
+						     <div class="col-md-3"></div>
+						     <div class="col-md-6"id='project-details'> </div>
+						     <div class="col-md-3"></div>
+						</div>
+						<div class="row">
+						    <div class='panel panel-default'>
+						         <div class='panel-heading'>
+						            <div class='panel-title'> 
+						             <a data-toggle="collapse" data-target="#collapseInst" 
+						                                         href="#collapseInst">Using Instamorph
+						            </a>
+						         </div>
+						         </div>
+						          <div id="collapseInst" class="panel-collapse collapse in">
+						             <div class='panel-body'><p id='instamorph'></p></div>
+						         </div>
+						    </div>
+						</div>
+
+						<div class="row">
+						    <div class='panel panel-default'>
+						         <div class='panel-heading'>
+						            <div class='panel-title'> 
+						             <a data-toggle="collapse" data-target="#collapseSug" 
+						                                         href="#collapseSug">Using Sugru
+						            </a>
+						         </div>
+						         </div>
+						          <div id="collapseSug" class="panel-collapse collapse in">
+						             <div class='panel-body'><p id='sugru'></p></div>
+						         </div>
+						    </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2 colortext mit-color" id="chat">
+				</div>
+				
+			</div>
+	</div>
+</body>
+
+</html>
+
