@@ -2,8 +2,25 @@
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
-.div{
-	display: block;
+
+p{
+	padding: 10px;
+	font: "Times New Roman";
+	word-spacing: 2px;
+	line-height: 25px;
+}
+ #welcome{
+ 	margin-left: -20px;
+ }
+
+#logo{
+	width: 200px;
+	height: 100px;
+}
+
+.prototypes{
+	width: 250px;
+	height: 250px;
 }
 
 #greeting{
@@ -12,7 +29,32 @@ body {
 	width: 100%;
 }
 
+#main-content{
+	position: relative;
+}
+#content-tab{
+	position: relative;
+	font-size: 18px;
+}
 .colortext{
 	color: white;
 
+}
+.black{
+	color: black;
+}
+
+iframe[seamless] {
+    border: none;
+}
+
+table{
+	border-spacing: 3px;
+	text-align: center;
+	width: 100%;
+	border: 1px solid black;
+}
+
+.panel-title{
+	text-align: center;
 }

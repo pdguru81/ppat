@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="javascripts/libs/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="javascripts/libs/bootstrap.min.js"></script>
+<script type="text/javascript" src="javascripts/teamkate.js"></script>
+<link rel="stylesheet" type="text/css" href="stylesheets/bootstrap-3.2.0-dist/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="stylesheets/teamkate.css">
+<title>teamkate!</title>
+</head>
+<body>
+<div id="greeting">
+	<div class="col-md-4" id="welcome">
+				<img id="logo" src="images/gear.png">
+	</div>
+	<div class="container">
+		<div class="row">
+		<div class="col-md-8" id="welcome">
+		<div class="row black">space</div>
+		<div class="row black">space</div>
+		<div class="row" id="content-tab">			
+			<ul class="nav nav-tabs" id="tabs" role="tablist">
+			  <li id="for-article" class="active"><a href="#project-detail" role="tab" data-toggle="tab"> Project Details</a></li>
+			  <li id="for-posts"><a href="#create-demo" role="tab" data-toggle="tab">Creating prototypes</a></li>
+			  <li id="for-posts"><a href="#team" role="tab" data-toggle="tab">The team</a></li>
+			  <li id="for-videos"><a href="#videos" role="tab" data-toggle="tab">Videos</a></li>
+			</ul>
+		</div>
+		</div>
+	</div>
+	</div>
+</div>
+</div>
+		<div id='main-content' class="container">
+			<div class="row">
+				<div class="tab-content col-md-6" id="publications">
+						<div class="tab-pane active" id="project-detail">
+							<div class="row">
+							     <div class="col-md-3"></div>
+							     <div class="col-md-6"id='project-details'> </div>
+							     <div class="col-md-3"></div>
+							</div>
+						<div class="row">
+						    <div class='panel panel-default'>
+						         <div class='panel-heading'>
+						            <div class='panel-title'> 
+						             <a data-toggle="collapse" data-target="#collapseOne" 
+          								 href="#collapseOne">Images of Prototypes
+       								 </a>
+       								 </div>
+						         </div>
+						         <div id="collapseOne" class="panel-collapse collapse in">
+							         <div  class='panel-body'>
+							         	<table>
+							         	<tr>
+							         		<td><img class='prototypes' src="images/p1.jpg"></td>
+							         		<td><img class='prototypes' src="images/p2.jpg"></td>
+							         		<td><img class='prototypes' src="images/p3.jpg"></td>
+							         	</tr>
+							         	<tr>
+							         	<td><img class='prototypes' src="images/p4.jpg"></td>
+							         	<td><img class='prototypes' src="images/p5.jpg"></td>
+							         	</tr>
+							         	</table>
+							         </div>
+						     </div>
+						    </div>
+						</div>
+					<div class="row">
+					    <div class='panel panel-default'>
+					         <div class='panel-heading'>
+					            <div class='panel-title'>Water Resistance Test</div>
+					         </div>
+					         <div class='panel-body'></div>
+					    </div>
+					</div>
+					    
+					<div class="row">
+				    <div class='panel panel-default'>
+				         <div class='panel-heading'>
+				            <div class='panel-title'> Sound directionality Test</div>
+				         </div>
+				         <div class='panel-body'></div>
+				 </div>
+				</div>    
+				<div class="row">
+				    <div class='panel panel-default'>
+				         <div class='panel-heading'>
+				            <div class='panel-title'>Other Tests</div>
+				         </div>
+				         <div class='panel-body'></div>
+				    </div>
+				</div>
+    
+    
+
+						</div>
+						<div class="tab-pane" id="team">
+							<div class="row">
+							     <div class="col-md-3"></div>
+							     <div class="col-md-6"id='team-comment'></div>
+							     <div class="col-md-3"></div>
+							</div>
+						<div class="row">
+						<table data-toggle="table" id='team-mates'>
+						    <thead>
+						        <tr>
+						            <th data-field="id">Name</th>
+						            <th data-field="name">Experience in PPAT</th>
+						        </tr>
+						    </thead>
+						    <tbody>
+						    	 <tr>
+						            <td>Dhruv Jain</td>
+						            <td data-field="name">bla bla bla</td>
+						        </tr>
+						    </tbody>
+						    <tbody> <tr>
+						            <td>Raquel Galvan-Garza</td>
+						            <td data-field="name">bla bla bla</td>
+						        </tr>
+						    </tbody>
+						    <tbody>
+						     <tr>
+						            <td>Philip Abel</td>
+						            <td data-field="name">bla bla bla</td>
+						     </tr>
+						    </tbody>
+						    <tbody>
+						     <tr>
+						          <td>Jenny Shen</td>
+						            <td data-field="name">bla bla bla</td>
+						       </tr>
+						   </tbody>
+						</table>
+						</div>
+						</div>
+					<div class="tab-pane " id="create-demo">
+						<div class="row">
+						     <div class="col-md-3"></div>
+						     <div class="col-md-6"id='project-details'> </div>
+						     <div class="col-md-3"></div>
+						</div>
+						<div class="row">
+						    <div class='panel panel-default'>
+						         <div class='panel-heading'>
+						            <div class='panel-title'> 
+						             <a data-toggle="collapse" data-target="#collapseOne" 
+						                                         href="#collapseOne">Using Instamorph
+						            </a>
+						         </div>
+						         </div>
+						          <div id="collapseOne" class="panel-collapse collapse in">
+						             <div class='panel-body'><p id='instamorph'></p></div>
+						         </div>
+						    </div>
+						</div>
+
+						<div class="row">
+						    <div class='panel panel-default'>
+						         <div class='panel-heading'>
+						            <div class='panel-title'> 
+						             <a data-toggle="collapse" data-target="#collapseOne" 
+						                                         href="#collapseOne">Using Sugru
+						            </a>
+						         </div>
+						         </div>
+						          <div id="collapseOne" class="panel-collapse collapse in">
+						             <div class='panel-body'><p id='sugru'></p></div>
+						         </div>
+						    </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 colortext mit-color" id="chat">
+				</div>
+				
+			</div>
+		</div>
+</body>
+
+</html>
+
