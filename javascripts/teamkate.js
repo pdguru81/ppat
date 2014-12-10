@@ -3,10 +3,7 @@
 var comment = 'Our team was comprised of four members. We worked on this project all semester and multiple prototypes for the project. Checkout their comments'+
  					   +'about this class below';
 
-var projectdetails =' Welcome! We are team Kate from 6.811- Principles and Practice of Assistive Technology.'+
- " We worked with our client, Kate, in cambridge  to create a water resistant, noise blocking cover for her cochlear implant!" +
- ' This incredibly fun project took about eight weeks and we use this site to document the work that we have done so far. Feel free to look at the docs!';
-
+var projectdetails ='Welcome! We are Team Kate from the MIT course 6.811: Principles and Practice of Assistive Technology. We worked with our client, Kate, in Cambridge to create a water resistant, noise blocking cover for her cochlear implants! This incredibly fun project took about eight weeks and we used this site to document the work that we have done so far. Feel free to look!'
 
 //instructions on how to use instamorph
 var instamorph='<ol style="type:1">'+
