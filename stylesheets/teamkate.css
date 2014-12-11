@@ -1,7 +1,8 @@
 
 body {
   /*font: 14px "Times New Roman", Helvetica, Arial, sans-serif;*/
-  font:'Source Sans Pro';
+  font: 'Source Sans Pro';
+  background-color: BlanchedAlmond;
 }
 
 p{
@@ -12,6 +13,7 @@ p{
 }
  #welcome{
  	margin-left: -20px;
+ 	font-size: 14px;
  }
 
 #logo{

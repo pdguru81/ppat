@@ -21,7 +21,7 @@ var instamorph='<ol style="type:1">'+
 '<li>Trim the edges of the fabric to match the shape of the instamorph piece.</li>'+
 '</ol>';
 
-// Instructions on how to use sugru
+// Instructions on how to use sugru 008b8b
 var sugru ='<ol style="type:1">'+
 "Making sugru (<a href='http://sugru.com/'>Sugru link</a>) sound blockers: "+
 "<li> To protect the cochlear implant and to allow the sugru to be easily removed from the cochlear implant, the first step is to wrap the cochlear implant in saran wrap. The layer should be as thin as possible while also being fitted enough so that it doesn't easily move around. It should also be wrapped so that it can be slipped off the front of the cochlear implant easily. </li>"+
