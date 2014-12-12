@@ -29,10 +29,12 @@ $(document).ready(function(){
 	$('#project-details').html(projectdetails);
 	$('#teamcomment').html(comment);
 	
-	$('#logo').click(function() {
-		 console.log()
+	$('#alogo').click(function(e) {
+		  console.log('here!');
+		 console.log(window.location);
 		 document.location.href='/'
 	});
+
 
 	// prevent panels causing page to jump
 	$('.panel-title a').on('click',function(e){

@@ -22,6 +22,7 @@ p{
 }
 
 #logo:hover {
+	 cursor: pointer;
 }
 .prototypes{
 	width: 100%;
