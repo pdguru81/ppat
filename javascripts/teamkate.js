@@ -38,7 +38,6 @@ $(document).ready(function(){
 	// prevent panels causing page to jump
 	$('.panel-title a').on('click',function(e){
 		var panel =$(this).parents('.panel-title').parents('.panel-heading').parents('.panel').children('.panel-collapse');
-		console.log("here");
 		e.preventDefault();
 	    
 	});
